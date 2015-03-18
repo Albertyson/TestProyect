@@ -12,6 +12,16 @@ public class Crucero {
     
     private int habitaciones;
     private double peso;
+    private boolean comida;
+
+    public boolean isComida() {
+        return comida;
+    }
+
+    public void setComida(boolean comida) {
+        this.comida = comida;
+    }
+
 
     public double getPeso() {
         return peso;
@@ -32,15 +42,18 @@ public class Crucero {
     public Crucero() {
     }
 
-    public Crucero(int habitaciones, double peso) {
+    public Crucero(int habitaciones, double peso, boolean comida) {
         this.habitaciones = habitaciones;
         this.peso = peso;
+        this.comida = comida;
     }
 
     @Override
     public String toString() {
-        return "Crucero{" + "habitaciones=" + habitaciones + ", peso=" + peso + '}';
+        return "Crucero{" + "habitaciones=" + habitaciones + ", peso=" + peso + ", comida=" + comida + '}';
     }
+
+    
     
     
     
