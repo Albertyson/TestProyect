@@ -13,6 +13,16 @@ public class Crucero {
     private int habitaciones;
     private double peso;
     private boolean comida;
+    private double precioPasaje;
+
+    public double getPrecioPasaje() {
+        return precioPasaje;
+    }
+
+    public void setPrecioPasaje(double precioPasaje) {
+        this.precioPasaje = precioPasaje;
+    }
+
 
     public boolean isComida() {
         return comida;
@@ -42,18 +52,17 @@ public class Crucero {
     public Crucero() {
     }
 
-    public Crucero(int habitaciones, double peso, boolean comida) {
+    public Crucero(int habitaciones, double peso, boolean comida, double precioPasaje) {
         this.habitaciones = habitaciones;
         this.peso = peso;
         this.comida = comida;
+        this.precioPasaje = precioPasaje;
     }
 
     @Override
     public String toString() {
-        return "Crucero{" + "habitaciones=" + habitaciones + ", peso=" + peso + ", comida=" + comida + '}';
-    }
-
-    
+        return "Crucero{" + "habitaciones=" + habitaciones + ", peso=" + peso + ", comida=" + comida + ", precioPasaje=" + precioPasaje + '}';
+    }    
     
     
     
