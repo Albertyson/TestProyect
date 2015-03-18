@@ -14,15 +14,17 @@ public class Avion {
     private Llanta tipoLlanta;
     private boolean aeromosa;
     private String marca;
+    private int numeroPasajeros;
 
     public Avion() {
     }
 
-    public Avion(int peso, Llanta tipoLlanta, boolean aeromosa, String marca) {
+    public Avion(int peso, Llanta tipoLlanta, boolean aeromosa, String marca, int numeroPasajeros) {
         this.peso = peso;
         this.tipoLlanta = tipoLlanta;
         this.aeromosa = aeromosa;
         this.marca = marca;
+        this.numeroPasajeros = numeroPasajeros;
     }
 
     public int getPeso() {
@@ -56,6 +58,16 @@ public class Avion {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    public int getNumeroPasajeros() {
+        return numeroPasajeros;
+    }
+
+    public void setNumeroPasajeros(int numeroPasajeros) {
+        this.numeroPasajeros = numeroPasajeros;
+    }
+    
+    
 
     @Override
     public String toString() {
