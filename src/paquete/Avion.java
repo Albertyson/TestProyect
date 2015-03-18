@@ -13,14 +13,16 @@ public class Avion {
     private int peso;
     private Llanta tipoLlanta;
     private boolean aeromosa;
+    private String marca;
 
     public Avion() {
     }
 
-    public Avion(int peso, Llanta tipoLlanta, boolean aeromosa) {
+    public Avion(int peso, Llanta tipoLlanta, boolean aeromosa, String marca) {
         this.peso = peso;
         this.tipoLlanta = tipoLlanta;
         this.aeromosa = aeromosa;
+        this.marca = marca;
     }
 
     public int getPeso() {
@@ -45,6 +47,14 @@ public class Avion {
 
     public void setAeromosa(boolean aeromosa) {
         this.aeromosa = aeromosa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     @Override
