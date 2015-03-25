@@ -20,6 +20,38 @@ public class Crucero {
     private int conflicto3;
     //prueba
 
+    public int getHola() {
+        return hola;
+    }
+
+    public void setHola(int hola) {
+        this.hola = hola;
+    }
+
+    public int getConflicto() {
+        return conflicto;
+    }
+
+    public void setConflicto(int conflicto) {
+        this.conflicto = conflicto;
+    }
+
+    public int getConflicto2() {
+        return conflicto2;
+    }
+
+    public void setConflicto2(int conflicto2) {
+        this.conflicto2 = conflicto2;
+    }
+
+    public int getConflicto3() {
+        return conflicto3;
+    }
+
+    public void setConflicto3(int conflicto3) {
+        this.conflicto3 = conflicto3;
+    }
+
     public double getPrecioPasaje() {
         return precioPasaje;
     }
