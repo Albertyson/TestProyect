@@ -14,6 +14,9 @@ public class Crucero {
     private double peso;
     private boolean comida;
     private double precioPasaje;
+    private int conflicto;
+    private int conflicto2;
+    private int conflicto3;
     //prueba
 
     public double getPrecioPasaje() {
