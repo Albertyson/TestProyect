@@ -33,5 +33,6 @@ public class main {
         asientos=leer.nextInt();
         Carro carro=new Carro(nombre, color, asientos, llanta);
         System.out.println("Info del Carro: "+carro);
+        //prueba
     }
 }
