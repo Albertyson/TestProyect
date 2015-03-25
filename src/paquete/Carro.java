@@ -9,6 +9,8 @@ package paquete;
  * @author Alberto
  */
 public class Carro {
+
+    // franciscoenClase cambio
     
     private String Nombre;
     private String color;
